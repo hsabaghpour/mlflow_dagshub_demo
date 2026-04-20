@@ -1,0 +1,2 @@
+model_name: anomaly-detection-prod
+model_version: '2'

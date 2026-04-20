@@ -1,0 +1,23 @@
+artifact_path: /Users/alexparsee/mlops/training/mlflows/mlflow_dagshub_demo/mlruns/2/models/m-d641b40c7ecc4ba886cc9b1ebab08aaa/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-d641b40c7ecc4ba886cc9b1ebab08aaa
+model_size_bytes: 39526
+model_uuid: m-d641b40c7ecc4ba886cc9b1ebab08aaa
+prompts: null
+run_id: d54f73fa51d440fea2866eeb680ef248
+utc_time_created: '2026-04-20 11:27:56.672488'

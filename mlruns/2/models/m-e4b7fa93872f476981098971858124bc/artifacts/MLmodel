@@ -1,0 +1,22 @@
+artifact_path: /Users/alexparsee/mlops/training/mlflows/mlflow_dagshub_demo/mlruns/2/models/m-e4b7fa93872f476981098971858124bc/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.13
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.11.1
+model_id: m-e4b7fa93872f476981098971858124bc
+model_size_bytes: 137746
+model_uuid: m-e4b7fa93872f476981098971858124bc
+prompts: null
+run_id: 9cfaa7370c9c4f12a98ea22588cffaaa
+utc_time_created: '2026-04-20 11:34:09.842232'
